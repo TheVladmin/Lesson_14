@@ -1,0 +1,354 @@
+/* очень много Before, посмотрел 15 урок и понял как надо делать */
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+	font-family: Roboto;
+	background-color: #F5F5F5;
+}
+.wrapper {
+}
+.our-promise {
+}
+.our-promise__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	row-gap: 68px;
+}
+.our-promise__text-part {
+}
+.title-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 33px;	
+}
+.title-block__subtitle {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	line-height: 2;
+	color: #5D62B5;
+	position: relative;
+	padding-left: 35px;
+}
+.title-block__subtitle::before {
+	content: '';
+	width: 28px;
+	height: 27px;
+	position: absolute;
+	background: url(../img/Overline\ Mark.svg);
+	top: -2px;
+	left: 0;
+	z-index: 1;
+}
+.title-block__title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 1.16;
+}
+.our-promise__block-promise {
+	display: flex;
+	column-gap: 24px;
+}
+.promise-block {
+}
+.promise-block__item {
+	display: flex;
+	flex: 0 1 33.333%;
+	flex-direction: column;
+	position: relative;
+	padding-left: 86px;
+	row-gap: 20px;
+}
+.promise-block__item_img1::before {
+	content: '';
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	background: url(../img/dog_and_cat.svg) no-repeat;
+	top: -10px;
+	left: 0px;
+}
+.promise-block__item_img2::before {
+	content: '';
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	background: url(../img/dog_vet.svg) no-repeat;
+	top: -10px;
+	left: 0px;
+}
+.promise-block__item_img3::before {
+	content: '';
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	background: url(../img/dog_stream.svg) no-repeat;
+	top: -10px;
+	left: 0px;
+}
+.promise-block__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.4;
+	color: #F2726F;
+
+}
+.promise-block__text {
+	font-weight: 400;
+	letter-spacing: 0.15px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #4B4B4B;	
+}
+
+
+
+
+
+
+
+
+
+.our-service {
+}
+.our-service__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	row-gap: 78px;
+}
+.our-service__text-part {
+}
+.title-block {
+}
+.title-block__subtitle {
+	text-transform: uppercase;
+}
+.title-block__title {
+}
+.our-service__service-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	row-gap: 24px;
+}
+.block-services {
+}
+.block-service__column{
+	flex: 0 1 33.333%;
+	padding: 0 12px;
+}
+.block-service__column img{
+	margin-bottom: 33px;
+}
+
+.block-services__title {
+	font-size: 19px;
+	line-height: 1.37;
+	font-weight: 900;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+.block-services__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	font-weight: 400;
+	color: #4B4B4B;
+	text-align: center;
+}
+.block-services__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	padding: 50px 40px;
+	text-align: center;
+	transition: all .3s;
+	height: 100%;
+}
+.block-services__item:hover{
+	transform: scale(1.05);
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+}
+
+.our-service__link{
+	display: flex;
+	justify-content: center;
+}
+.our-service__button {
+	display: inline-flex;
+	align-items: center;
+	padding: 9px 25px 9px 25px;
+	margin-bottom: 100px;
+	border-radius: 10px;
+	min-height: 48px;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.15px;
+	text-align: center;
+	background-color: #F2726F;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: .2s;
+} 
+.our-service__button:hover {
+	background-color: #5c3c3b;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+.our-impact {
+	height: 608px;
+	background-color: #29C3BE;
+	margin: 0 auto;
+	
+}
+.our-impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+	row-gap: 79px;
+	position: relative;
+}
+.our-impact__container::before {
+	content: '';
+	width: 695px;
+	height: 308px;
+	background: url(../img/Blob\ 22.svg) no-repeat;
+	position: absolute;
+	top: 0px;
+	right: -80px;
+
+}
+.our-impact__text-part{
+}
+.our-impact__text-part::before {
+}
+.title-block {
+	display: flex;
+	position: relative;
+}
+.title-block_mod{
+	width: 411px;
+	padding: 115px 0 0 0;
+}
+.title-block__subtitle_white{
+	color: #FFFFFF;
+}
+.title-block__subtitle_white::before {
+	content: '';
+	width: 28px;
+	height: 27px;
+	position: absolute;
+	background: url(../img/Overline\ MarkW.svg);
+	top: -2px;
+	left: 0;
+	z-index: 1
+}
+.title-block__title_white {
+   color: #FFFFFF;
+}
+.title-block__image{
+	width: 498px;
+	height: 315px;
+	position: absolute;
+	top: -77px;
+	left: 522px;
+}
+.our-impact__stats-block {
+	display: flex;
+}
+.stats-block {
+}
+.stats-block__item{
+	position: relative;
+	flex: 0 1 25%;
+	padding-left: 87px;
+}
+.stats-block__item_img1{
+}
+.stats-block__item_img1::before{
+	content: '';
+	width: 76px;
+	height: 76px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/dog_duckling_24x.svg) no-repeat;
+}
+.stats-block__item_img2{
+	position: relative;
+	flex: 0 1 25%;
+}
+.stats-block__item_img2::before{
+	content: '';
+	width: 76px;
+	height: 76px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/dog_house_24px.svg) no-repeat;
+}
+.stats-block__item_img3{
+	position: relative;
+	flex: 0 1 25%;
+}
+.stats-block__item_img3::before{
+	content: '';
+	width: 76px;
+	height: 76px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/dog_leash_24x.svg) no-repeat;
+}
+.stats-block__item_img4{
+	position: relative;
+	flex: 0 1 25%;
+}	
+.stats-block__item_img4::before{
+	content: '';
+	width: 76px;
+	height: 76px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/dog_food_bowl_24x.svg) no-repeat;
+}
+.stats-block__number {
+	line-height: 1.17;
+	font-size: 36px;
+	font-weight: 900;
+	color: #FFFFFF;
+	padding-top: 4px;
+}
+.stats-block__text {
+	line-height: 1.5;
+	font-style: 16px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+	font-weight: 700;
+}
+.ysss{
+	margin-top: 100px;
+	color: #F5F5F5;
+}
