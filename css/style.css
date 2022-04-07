@@ -343,7 +343,7 @@ body{
 }
 .stats-block__text {
 	line-height: 1.5;
-	font-style: 16px;
+	font-size: 16px;
 	letter-spacing: 0.15px;
 	color: #5D62B5;
 	font-weight: 700;
